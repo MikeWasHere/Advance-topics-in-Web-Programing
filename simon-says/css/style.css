@@ -1,0 +1,76 @@
+body{
+	background: url("../img/simon.jpg") repeat fixed;
+}
+
+img{
+	position: relative;
+	left: 30%;
+	margin-top: 10%;
+}
+
+h1{
+	font-family: 'Cinzel', serif;
+	color: #d51818;
+}
+
+#back-circle{
+	position: absolute;
+	left: 37.5%;
+	bottom: 55%;
+	font-size: 1.3em;
+}
+
+ul{
+	position: absolute;
+	top: 50%;
+	list-style: none;
+	overflow: scroll;
+}
+
+#results{
+	position: absolute;
+	top: 50%;
+	list-style: none;
+	overflow: scroll;
+}
+
+#light{
+	color: #FF4500;
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-weight: 900;
+}
+
+#time{
+	
+}
+
+#location{
+	margin-bottom: 5%;
+}
+
+button{
+	position: absolute;
+	left: 117%;
+	top: 280%;
+	width: 45%;
+	padding: 10px;
+	font-size: 1.2em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	background-color: #d51818;
+	color: #460505;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+button:hover{
+	background-color: #740000;
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
